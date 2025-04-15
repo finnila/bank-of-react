@@ -49,7 +49,7 @@ class Credits extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <h1>Credits</h1>
 
         <AccountBalance accountBalance={this.props.accountBalance} />

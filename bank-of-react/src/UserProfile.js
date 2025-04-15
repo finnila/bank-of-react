@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 class UserProfile extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <h1>User Profile</h1>
 
         <div>Username: {this.props.userName}</div>

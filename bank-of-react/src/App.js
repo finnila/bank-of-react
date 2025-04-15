@@ -6,6 +6,7 @@ It contains the top-level state.
 ==================================================*/
 import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 
 // Import other components
 import Home from "./Home";
@@ -133,8 +134,8 @@ class App extends Component {
   render() {
     // Important: Include the "basename" in Router, which is needed for deploying the React app to GitHub Pages
     return (
-      <Router>
-        <div>
+      <Router basename="/bank-of-react">
+        <div className="App">
           <Routes>
             <Route
               path="/"
