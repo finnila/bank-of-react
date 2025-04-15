@@ -8,3 +8,6 @@ Features
 - User authentication (mock)
 - User profile page
 - Responsive design
+
+Group Members
+- Daryl Hou
